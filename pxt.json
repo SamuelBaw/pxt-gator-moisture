@@ -4,15 +4,26 @@
     "description": "SparkFun gator:moisture",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "microphone": "*"
     },
     "files": [
         "README.md",
         "gatormoisture.ts",
         "gatormoisture.cpp",
         "shims.d.ts",
-        "enums.d.ts"
+        "enums.d.ts",
+        "main.ts",
+        "custom.ts"
     ],
     "testFiles": [],
-    "public": true
+    "public": true,
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
