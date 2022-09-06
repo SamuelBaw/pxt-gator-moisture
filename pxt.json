@@ -1,6 +1,6 @@
 {
     "name": "sunlightSensorSi1151",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Seeed sunlight sensor SI1151",
     "license": "MIT",
     "dependencies": {
