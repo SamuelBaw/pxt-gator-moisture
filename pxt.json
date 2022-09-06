@@ -14,7 +14,7 @@
         "shims.d.ts",
         "enums.d.ts",
         "main.ts",
-        "custom.ts"
+        "main.blocks"
     ],
     "testFiles": [],
     "public": true,
