@@ -1,7 +1,7 @@
 {
-    "name": "gatormoisture",
+    "name": "sunlightSensorSi1151",
     "version": "0.0.1",
-    "description": "SparkFun gator:moisture",
+    "description": "Seeed sunlight sensor SI1151",
     "license": "MIT",
     "dependencies": {
         "core": "*",
@@ -9,8 +9,8 @@
     },
     "files": [
         "README.md",
-        "gatormoisture.ts",
-        "gatormoisture.cpp",
+        "si1151.ts",
+        "si1151.cpp",
         "shims.d.ts",
         "enums.d.ts",
         "main.ts",
