@@ -15,7 +15,7 @@
 
 
 /**
- * Functions to operate the gatormoisture sensor
+ * Functions to operate the gatorMoisture sensor
  */
 
  enum gatorMoistureType{
@@ -28,7 +28,7 @@
 //% color=#f44242 icon="\uf185"
 namespace gatorMoisture {
 
-    // Functions for reading moisture from the gatormoisture in lux or straight adv value
+    // Functions for reading moisture from the gatorMoisture in lux or straight adv value
 
     /**
     * Reads the number
@@ -46,7 +46,7 @@ namespace gatorMoisture {
 	/**
      * Function used for simulator, actual implementation is in gatormoisture.cpp
      */
-    //% shim=gatorMoisture::getLux
+    //% shim=gatorMoisture::getMoisture
     function getMoisture(ADCVal: number) {
         // Fake function for simulator
         return 0

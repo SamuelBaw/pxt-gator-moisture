@@ -1,38 +1,7 @@
-
-/**
-* Nutze diese Datei für benutzerdefinierte Funktionen und Blöcke.
-* Weitere Informationen unter https://makecode.microbit.org/blocks/custom
-*/
-
-enum MyEnum {
-    //% block="one"
-    One,
-    //% block="two"
-    Two
-}
-
-/**
- * Custom blocks
- */
-//% weight=100 color=#0fbc11 icon=""
-namespace custom {
-    /**
-     * TODO: describe your function here
-     * @param n describe parameter here, eg: 5
-     * @param s describe parameter here, eg: "Hello"
-     * @param e describe parameter here
-     */
-    //% block
-    export function foo(n: number, s: string, e: MyEnum): void {
-        // Add code here
-    }
-
-    /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
-     */
-    //% block
-    export function fib(value: number): number {
-        return value <= 1 ? value : fib(value -1) + fib(value - 2);
-    }
-}
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="!B6bLP)@Y0vzRHg0m,Tv" x="0" y="0"><comment pinned="false" h="80" w="160">Gib deinen Code hier ein</comment><statement name="HANDLER"><block type="basic_show_icon" id="U|ljF(]UCJNQB2i]b,?["><field name="i">IconNames.Heart</field><next><block type="device_pause" id="bv/PW8u/rCU3RY.q?=P)"><value name="pause"><shadow type="timePicker" id="+NO{1sz[:35Ze+EqAiYH"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="]@*laWKhV%!4ff9aSiu{"><field name="LEDS">`
+        . # . . . 
+        . # # . . 
+        . . # . . 
+        . . . . . 
+        # # # # #
+        `</field><next><block type="device_pause" id="A-.wOUc1ZL|_E6=Fg_,#"><value name="pause"><shadow type="timePicker" id="Im$f]0)fb5.X4)GAHrQk"><field name="ms">100</field></shadow></value><next><block type="device_show_number" id="]`}uXuq*|X=`?Kca8U4S"><value name="number"><shadow type="math_number" id="~)bGxqDUZ)Jd_uv@9=xK"><field name="NUM">0</field></shadow><block type="gatorMoisture_moisture" id="U@ot_;Z_Oe0iVTEFn]#q"><field name="pin">AnalogPin.P0</field><field name="gatorMoistureType">gatorMoistureType.adcVal</field></block></value><next><block type="device_pause" id="$;U]!/#ca$P5d_./(ncv"><value name="pause"><shadow type="timePicker" id="q,S:DtIOa4[2t_PK`RK@"><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
