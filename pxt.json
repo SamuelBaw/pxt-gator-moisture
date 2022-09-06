@@ -1,7 +1,7 @@
 {
-    "name": "sunlightSensorSi1151",
-    "version": "0.0.2",
-    "description": "Seeed sunlight sensor SI1151",
+    "name": "gatorMoisture",
+    "version": "0.0.1",
+    "description": "gatorMoisture",
     "license": "MIT",
     "dependencies": {
         "core": "*",
@@ -9,8 +9,8 @@
     },
     "files": [
         "README.md",
-        "si1151.ts",
-        "si1151.cpp",
+        "gatormoisture.ts",
+        "gatormoisture.cpp",
         "shims.d.ts",
         "enums.d.ts",
         "main.ts",
